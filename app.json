@@ -4,27 +4,34 @@
     "slug": "ecommerce-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+
+    "icon": "./assets/images/logo.png",
+
     "userInterfaceStyle": "dark",
+
     "splash": {
-      "image": "./assets/images/splash-icon.png",
+      "image": "./assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#1a1d29"
     },
+
     "assetBundlePatterns": ["**/*"],
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ecommerce.app"
     },
+
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#1a1d29"
       },
       "package": "com.ecommerce.app"
     },
+
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logo.png"
     }
   }
 }
